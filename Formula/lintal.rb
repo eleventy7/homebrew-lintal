@@ -4,24 +4,24 @@
 class Lintal < Formula
   desc "A fast Java linter with auto-fix, reading checkstyle.xml configs"
   homepage "https://github.com/eleventy7/lintal"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/eleventy7/lintal/releases/download/v#{version}/lintal-aarch64-apple-darwin.tar.gz"
-      sha256 "22bf436221e1fb49be5f323c806bbf402b9c639ca8769d92ae6d22ab43062c45"
+      sha256 "af3253053f5635de8df1dcd953a6285131f2630aa42e0ad1c7c02d2b0e9aa183"
     end
     on_intel do
       url "https://github.com/eleventy7/lintal/releases/download/v#{version}/lintal-x86_64-apple-darwin.tar.gz"
-      sha256 "35e52a33ea0c0ac56d3ca79285b96a2af81547098e4a0037dd3721064c69eceb"
+      sha256 "8538a88f760a00511a58dcab930e87c3125c1df61b7f8f1617d171283aeeae5a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/eleventy7/lintal/releases/download/v#{version}/lintal-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "777128b69fbf21018605d59bed03d239fbfd81ccbb9013251e6416140dcf4165"
+      sha256 "e63be1f215ea20c92896e1509fd5815ecbd0fbcf679d0bf27b2c2316f53a1da7"
     end
   end
 
